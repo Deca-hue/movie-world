@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Movie World</h1>
+        </div>
+        <section class="search">
+          <h2>Search Movies</h2>
+          <input type="text" id="searchInput" placeholder="Search for movies..." />
+          <button class="btn" onclick="searchMovies()">Search</button>
+      </section>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Browse</a></li>
+                <li><a href="#">Upcoming</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Featured Movie</h2>
+            <div class="movie-card">
+                <img src="movie.jpg" alt="Featured Movie">
+                <div class="movie-info">
+                    <h3>The Movie Title</h3>
+                    <p>Release Date: 2024</p>
+                    <button class="btn">More Info</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="movie-list">
+            <h2>Trending Movies</h2>
+            <div class="movies">
+                <!-- Movie cards will go here -->
+            </div>
+        </section>
+
+
+        <section class="watchlist">
+            <h2>Your Watchlist</h2>
+            <div class="movies">
+                <!-- Watchlist movies will go here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Movie World. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
